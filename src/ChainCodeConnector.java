@@ -3,9 +3,13 @@ package edu.dku.aiia.fab;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import org.apache.log4j.Logger;
+//import org.hyperledger.fabric.protos.gossip.Message.Chaincode;
 import org.hyperledger.fabric.sdk.ChaincodeID;
 import org.hyperledger.fabric.sdk.ChaincodeResponse.Status;
 import org.hyperledger.fabric.sdk.Channel;
+//import org.hyperledger.fabric.sdk.EventHub;
 import org.hyperledger.fabric.sdk.HFClient;
 import org.hyperledger.fabric.sdk.Orderer;
 import org.hyperledger.fabric.sdk.Peer;
@@ -16,9 +20,6 @@ import org.hyperledger.fabric.sdk.exception.InvalidArgumentException;
 import org.hyperledger.fabric.sdk.exception.ProposalException;
 import org.hyperledger.fabric.sdk.exception.TransactionException;
 import org.hyperledger.fabric.sdk.security.CryptoSuite;
-
-//import org.hyperledger.fabric.sdk.EventHub;
-
 
 public class ChainCodeConnector {
 	HFClient client;

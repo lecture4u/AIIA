@@ -1,11 +1,10 @@
 package edu.dku.aiia.fab;
 
-import java.io.Serializable;
-import java.util.Set;
 import org.hyperledger.fabric.sdk.Enrollment;
 import org.hyperledger.fabric.sdk.User;
 
-
+import java.io.Serializable;
+import java.util.Set;
 
 public class AppUser implements User, Serializable {
     private static final long serializationId = 1L;
