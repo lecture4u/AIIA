@@ -1,4 +1,4 @@
-package hyperledger.fabric.model;
+package edu.dku.aiia.fab;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

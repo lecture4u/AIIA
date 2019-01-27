@@ -1,10 +1,10 @@
-package hyperledger.fabric.utils;
-
-import org.hyperledger.fabric.sdk.Enrollment;
-import org.hyperledger.fabric.sdk.User;
+package edu.dku.aiia.fab;
 
 import java.io.Serializable;
 import java.util.Set;
+import org.hyperledger.fabric.sdk.Enrollment;
+import org.hyperledger.fabric.sdk.User;
+
 
 
 public class AppUser implements User, Serializable {
