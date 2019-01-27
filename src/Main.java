@@ -2,13 +2,9 @@ package edu.dku.aiia.fab;
 
 import org.hyperledger.fabric.sdk.Channel;
 
-
-
 import static java.lang.String.format;
 
-
-
-public class Main {
+public class App {
     public static void main(String[] args) throws Exception {
     	
         // create fabric-ca, chaincode, array, eventStr
