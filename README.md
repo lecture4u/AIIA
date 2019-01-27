@@ -1,8 +1,5 @@
-# AIIA
-Team AIIA
+# AiiA
 
-Project Opened:
-1. AiTES
-2. Fablic in JAVA
-3. ROI
-etc.
+AiiA Lab
+Java Chaincode Maven Example
+Java Application using fabric API
